@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+.headr {
+}
+.nav_bar {
+}
+.nav_bar ul {
+  margin: 30px;
+  text-align: center;
+}
+.nav_bar li {
+  display: inline-block;
+}
+.nav_bar a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  padding: 0px 20px;
+}
+.banner {
+  display: flex;
+}
+
+.discreption {
+  width: 50%;
+  margin: 71px;
+}
+.discreption h1 {
+  font-size: 43px;
+  line-height: 62px;
+}
+.discreption h1 span {
+  color: orangered;
+}
+.discreption p {
+  margin-bottom: 50px;
+}
+.discreption a {
+  text-decoration: none;
+  color: wheat;
+  background: #301005;
+  padding: 10px 23px;
+  border-radius: 3px;
+}
+.image {
+  width: 50%;
+}
+.image img {
+  width: 80%;
+}
