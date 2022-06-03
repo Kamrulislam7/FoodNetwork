@@ -1,9 +1,11 @@
-body {
+* {
   margin: 0;
+  padding: 0;
+}
+body {
   font-family: "Roboto", sans-serif;
 }
 .nav_bar ul {
-  margin: 30px;
   text-align: center;
 }
 .nav_bar li {
@@ -33,7 +35,7 @@ body {
 .discreption p {
   margin-bottom: 50px;
 }
-.discreption a {
+.btn {
   text-decoration: none;
   color: wheat;
   background: #301005;
@@ -45,4 +47,69 @@ body {
 }
 .image img {
   width: 80%;
+  background: url(/images/shapes/Group\ 8449.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.about {
+  display: flex;
+  background: url(/images/shapes/Frame\ 57.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 0px 0px;
+}
+.image-about {
+  width: 50%;
+}
+.image-about img {
+  width: 40%;
+  margin-left: 217px;
+}
+.about-me {
+  width: 50%;
+}
+.about-me h1 {
+  margin-top: 50px;
+}
+.about-me p {
+  width: 60%;
+  margin: 40px 0px 80px;
+}
+
+.title {
+  width: 400px;
+  margin: 0 auto;
+}
+.title h1 {
+  text-align: center;
+}
+
+.card {
+  display: flex;
+}
+.card-part {
+  width: 24%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 20px;
+  margin-right: 55px;
+}
+.card-part img {
+  width: 90%;
+  padding: 22px 0px 0px 19px;
+}
+.card-part h2 {
+  padding-left: 24px;
+}
+
+.card-part p {
+  padding: 21px;
+  line-height: 22px;
+  font-size: 16px;
+}
+.faka {
+  width: 10%;
+}
+.footer {
+  text-align: center;
+  background: rgb(32, 125, 179);
 }
