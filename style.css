@@ -47,13 +47,13 @@ body {
 }
 .image img {
   width: 80%;
-  background: url(/images/shapes/Group\ 8449.png);
+  background: url(./images/shapes/Group\ 8449.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
 .about {
   display: flex;
-  background: url(/images/shapes/Frame\ 57.jpg);
+  background: url(./images/shapes/Frame\ 57.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 50px 0px 0px;
